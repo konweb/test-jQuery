@@ -1,0 +1,5 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent http://konweb.github.io/test-jQuery/build/ http://konweb.github.io/test-jQuery/
+order deny,allow
